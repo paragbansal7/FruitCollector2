@@ -71,7 +71,7 @@ class Game{
                  
                  }
                 
-                
+                player.x=mouse.x;
                  
 
                 if (keyIsDown(RIGHT_ARROW) && player.index !== null) {
